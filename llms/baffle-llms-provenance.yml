@@ -1,0 +1,6 @@
+generated: '2026-09-27'
+method: probed
+generator: harvest-llms.py
+source: https://identity.document360.io/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DKbSiteAngular%26scope%3Dopenid%2520email%2520profile%2520kbSiteAdmin%2520offline_access%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fdocs.baffle.io%252Fsignin-oidc%26state%3Dreturn_to%253D%25252Fllms.txt%26session%3Dtrue%26property%3Duser%26defaultStrategy%3Doidc%26code_challenge%3D0O4c4vWrz7o52rHlCN0MBSnTNA0kmY5cJ32m9jCZyqQ%26code_challenge_method%3DS256
+bytes: 1259
+note: saved verbatim; the provider's own document

@@ -1,23 +1,76 @@
 aid: baffle
+
 name: Baffle
-description: 'Baffle is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://baffle.io/wp-content/uploads/2024/04/gartner-peer-insights.svg
+
+description: 'Baffle provides data tokenization, de‑identification, and encryption solutions that protect sensitive information across databases, cloud storage, and SaaS applications. Their platform enables organizations to secure data at rest and in motion, ensuring compliance with privacy regulations while simplifying data access for analytics and AI workloads. Baffle’s technology abstracts encryption complexities, offering searchable encryption and dynamic data masking to make data breaches irrelevant.'
+
 url: https://raw.githubusercontent.com/api-evangelist/baffle/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
+x-coverage:
+  state: gated
+  reason: partner-login
+  detail: Docs at https://docs.baffle.io redirect to a login page requiring credentials.
+  evidence:
+    - url: https://docs.baffle.io
+      status: 302
+  checked: 2026-09-27
+
 tags:
 - Company
-apis: []
+- Data-Protection
+- Encryption
+- Tokenization
+- Compliance
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/baffle-llms.txt
+- type: WellKnown
+  url: well-known/baffle-well-known.yml
+- type: Hosts
+  url: hosts/baffle-hosts.yml
+- type: Vendors
+  url: vendors/baffle-vendors.yml
+- type: PrivacyPolicy
+  url: https://baffle.io/privacy-policy/
+- type: Newsroom
+  url: https://baffle.io/news/
+- type: Blog
+  url: https://baffle.io/blog/
+- type: Documentation
+  url: https://docs.baffle.io/
+- type: GitHubOrganization
+  url: https://github.com/baffle
+- type: DomainSecurity
+  url: security/baffle-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://baffle.io
+
+apis: []
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

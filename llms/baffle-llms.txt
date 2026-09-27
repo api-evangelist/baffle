@@ -1,0 +1,15 @@
+![](https://cdn.document360.io/static/images/custompages/Login-1.svg)
+
+![](https://cdn.document360.io/logo/285e7a1a-6eee-443d-bb98-9e8d3f1da990/d2a54c10a85c43ec9ee7889c1a7ed2a0-baffleLogoBlue.png)
+
+Email
+
+Password
+
+Remember me
+
+[Forgot password?](https://identity.document360.io/Account/ForgotPassword?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DKbSiteAngular%26scope%3Dopenid%2520email%2520profile%2520kbSiteAdmin%2520offline_access%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fdocs.baffle.io%252Fsignin-oidc%26state%3Dreturn_to%253D%25252Fllms.txt%26session%3Dtrue%26property%3Duser%26defaultStrategy%3Doidc%26code_challenge%3D0O4c4vWrz7o52rHlCN0MBSnTNA0kmY5cJ32m9jCZyqQ%26code_challenge_method%3DS256)
+
+Login
+
+Don't have an account? [Sign up](https://identity.document360.io/Account/SelfRegister?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DKbSiteAngular%26scope%3Dopenid%2520email%2520profile%2520kbSiteAdmin%2520offline_access%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fdocs.baffle.io%252Fsignin-oidc%26state%3Dreturn_to%253D%25252Fllms.txt%26session%3Dtrue%26property%3Duser%26defaultStrategy%3Doidc%26code_challenge%3D0O4c4vWrz7o52rHlCN0MBSnTNA0kmY5cJ32m9jCZyqQ%26code_challenge_method%3DS256)
