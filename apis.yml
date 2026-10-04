@@ -32,6 +32,12 @@ x-coverage:
 
 tags:
 - Company
+- Data Protection
+- Encryption
+- Tokenization
+- Compliance
+tags_raw:
+- Company
 - Data-Protection
 - Encryption
 - Tokenization
